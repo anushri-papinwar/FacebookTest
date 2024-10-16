@@ -34,7 +34,7 @@ public class Utility {
     public static void captureScreenshot(WebDriver driver, String tid) throws IOException {
     	TakesScreenshot t = (TakesScreenshot)driver;
     	File source = t.getScreenshotAs(OutputType.FILE);
-    	SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
+    	SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss");
     	String dateTime = formatter.format(new Date());
     	
     	File dest = new File("D:\\VCTC\\SeleniumLectures\\TestNGSS\\Test-" +tid +" "+dateTime+".jpg");
