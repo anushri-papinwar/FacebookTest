@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="12" passed="8" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-15T19:05:55 IST" name="Suite" finished-at="2024-10-15T19:07:18 IST" duration-ms="82729">
+    <groups>
+      <group name="High">
+        <method signature="CreateAccountTestClass.verificationOfMetaPayLink()[pri:50, instance:test.CreateAccountTestClass@79924b]" name="verificationOfMetaPayLink" class="test.CreateAccountTestClass"/>
+        <method signature="FriendPageTestClass.validationOfFriendPageURL()[pri:5, instance:test.FriendPageTestClass@59309333]" name="validationOfFriendPageURL" class="test.FriendPageTestClass"/>
+        <method signature="LoginSignUpFacebook.validationOfCreateNewAccountButton()[pri:2, instance:test.LoginSignUpFacebook@1aa7ecca]" name="validationOfCreateNewAccountButton" class="test.LoginSignUpFacebook"/>
+        <method signature="CreateAccountTestClass.verificationOfMetaPayLink()[pri:50, instance:test.CreateAccountTestClass@409bf450]" name="verificationOfMetaPayLink" class="test.CreateAccountTestClass"/>
+        <method signature="FriendPageTestClass.validationOfFriendPageURL()[pri:5, instance:test.FriendPageTestClass@38d8f54a]" name="validationOfFriendPageURL" class="test.FriendPageTestClass"/>
+        <method signature="LoginSignUpFacebook.validationOfCreateNewAccountButton()[pri:2, instance:test.LoginSignUpFacebook@f6efaab]" name="validationOfCreateNewAccountButton" class="test.LoginSignUpFacebook"/>
+      </group> <!-- High -->
+      <group name="Sanity">
+        <method signature="CreateAccountTestClass.validationcreateAccountButton()[pri:1, instance:test.CreateAccountTestClass@79924b]" name="validationcreateAccountButton" class="test.CreateAccountTestClass"/>
+        <method signature="CreateAccountTestClass.validationcreateAccountButton()[pri:1, instance:test.CreateAccountTestClass@409bf450]" name="validationcreateAccountButton" class="test.CreateAccountTestClass"/>
+        <method signature="FriendPageTestClass.validationOfSendButton()[pri:2, instance:test.FriendPageTestClass@38d8f54a]" name="validationOfSendButton" class="test.FriendPageTestClass"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="CreateAccountTestClass.validationcreateAccountButton()[pri:1, instance:test.CreateAccountTestClass@79924b]" name="validationcreateAccountButton" class="test.CreateAccountTestClass"/>
+        <method signature="CreateAccountTestClass.validationcreateAccountButton()[pri:1, instance:test.CreateAccountTestClass@409bf450]" name="validationcreateAccountButton" class="test.CreateAccountTestClass"/>
+        <method signature="FriendPageTestClass.validationOfSendButton()[pri:2, instance:test.FriendPageTestClass@38d8f54a]" name="validationOfSendButton" class="test.FriendPageTestClass"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-10-15T19:05:55 IST" name="ChromeTest" finished-at="2024-10-15T19:06:55 IST" duration-ms="60211">
+      <class name="test.LoginSignUpFacebook">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.LoginSignUpFacebook@1aa7ecca]" started-at="2024-10-15T19:06:00 IST" name="openBrowser" finished-at="2024-10-15T19:06:02 IST" duration-ms="2261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initializePOM()[pri:0, instance:test.LoginSignUpFacebook@1aa7ecca]" started-at="2024-10-15T19:06:02 IST" name="initializePOM" finished-at="2024-10-15T19:06:02 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePOM -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginSignUpFacebook@1aa7ecca]" started-at="2024-10-15T19:06:02 IST" name="openApplication" finished-at="2024-10-15T19:06:04 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="validationOfCreateNewAccountButton()[pri:2, instance:test.LoginSignUpFacebook@1aa7ecca]" started-at="2024-10-15T19:06:04 IST" name="validationOfCreateNewAccountButton" finished-at="2024-10-15T19:06:05 IST" duration-ms="1291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfCreateNewAccountButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.LoginSignUpFacebook@1aa7ecca]" started-at="2024-10-15T19:06:05 IST" name="afterMethod" finished-at="2024-10-15T19:06:05 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="removePOM()[pri:0, instance:test.LoginSignUpFacebook@1aa7ecca]" started-at="2024-10-15T19:06:05 IST" name="removePOM" finished-at="2024-10-15T19:06:05 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePOM -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.LoginSignUpFacebook@1aa7ecca]" started-at="2024-10-15T19:06:53 IST" name="closeBrowser" finished-at="2024-10-15T19:06:55 IST" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.LoginSignUpFacebook -->
+      <class name="test.CreateAccountTestClass">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:05:55 IST" name="openBrowser" finished-at="2024-10-15T19:05:58 IST" duration-ms="2725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initializePOM()[pri:0, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:06:02 IST" name="initializePOM" finished-at="2024-10-15T19:06:02 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePOM -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:06:02 IST" name="openApplication" finished-at="2024-10-15T19:06:05 IST" duration-ms="2880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="validationcreateAccountButton()[pri:1, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:06:05 IST" name="validationcreateAccountButton" finished-at="2024-10-15T19:06:09 IST" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationcreateAccountButton -->
+        <test-method is-config="true" signature="afterM()[pri:0, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:06:09 IST" name="afterM" finished-at="2024-10-15T19:06:09 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:06:09 IST" name="openApplication" finished-at="2024-10-15T19:06:23 IST" duration-ms="13269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verificationOfMetaPayLink()[pri:50, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:06:23 IST" name="verificationOfMetaPayLink" finished-at="2024-10-15T19:06:28 IST" duration-ms="5737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfMetaPayLink -->
+        <test-method is-config="true" signature="afterM()[pri:0, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:06:28 IST" name="afterM" finished-at="2024-10-15T19:06:29 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method is-config="true" signature="removePOM()[pri:0, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:06:29 IST" name="removePOM" finished-at="2024-10-15T19:06:29 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePOM -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.CreateAccountTestClass@79924b]" started-at="2024-10-15T19:06:51 IST" name="closeBrowser" finished-at="2024-10-15T19:06:52 IST" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.CreateAccountTestClass -->
+      <class name="test.FriendPageTestClass">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:05:58 IST" name="openBrowser" finished-at="2024-10-15T19:06:00 IST" duration-ms="2252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initializePOM()[pri:0, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:06:05 IST" name="initializePOM" finished-at="2024-10-15T19:06:05 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePOM -->
+        <test-method is-config="true" signature="logintoApplicationAndSearchAFriend()[pri:0, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:06:05 IST" name="logintoApplicationAndSearchAFriend" finished-at="2024-10-15T19:06:24 IST" duration-ms="18988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApplicationAndSearchAFriend -->
+        <test-method signature="validationOfFavourites()[pri:3, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:06:24 IST" name="validationOfFavourites" finished-at="2024-10-15T19:06:30 IST" duration-ms="5327" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/oIIZ26adGMr.png] but found [https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/4Lea07Woawi.png]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/oIIZ26adGMr.png] but found [https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/4Lea07Woawi.png]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at test.FriendPageTestClass.validationOfFavourites(FriendPageTestClass.java:117)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfFavourites -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:06:30 IST" name="logoutFromApplication" finished-at="2024-10-15T19:06:34 IST" duration-ms="4082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="logintoApplicationAndSearchAFriend()[pri:0, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:06:34 IST" name="logintoApplicationAndSearchAFriend" finished-at="2024-10-15T19:06:45 IST" duration-ms="11713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApplicationAndSearchAFriend -->
+        <test-method signature="validationOfFriendPageURL()[pri:5, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:06:45 IST" name="validationOfFriendPageURL" finished-at="2024-10-15T19:06:47 IST" duration-ms="1782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfFriendPageURL -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:06:47 IST" name="logoutFromApplication" finished-at="2024-10-15T19:06:51 IST" duration-ms="3541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="removePOM()[pri:0, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:06:51 IST" name="removePOM" finished-at="2024-10-15T19:06:51 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePOM -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.FriendPageTestClass@59309333]" started-at="2024-10-15T19:06:52 IST" name="closeBrowser" finished-at="2024-10-15T19:06:53 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.FriendPageTestClass -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-10-15T19:05:55 IST" name="FirefoxTest" finished-at="2024-10-15T19:07:18 IST" duration-ms="82729">
+      <class name="test.LoginSignUpFacebook">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.LoginSignUpFacebook@f6efaab]" started-at="2024-10-15T19:06:08 IST" name="openBrowser" finished-at="2024-10-15T19:06:16 IST" duration-ms="8355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initializePOM()[pri:0, instance:test.LoginSignUpFacebook@f6efaab]" started-at="2024-10-15T19:06:16 IST" name="initializePOM" finished-at="2024-10-15T19:06:16 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePOM -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginSignUpFacebook@f6efaab]" started-at="2024-10-15T19:06:16 IST" name="openApplication" finished-at="2024-10-15T19:06:22 IST" duration-ms="5316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="validationOfCreateNewAccountButton()[pri:2, instance:test.LoginSignUpFacebook@f6efaab]" started-at="2024-10-15T19:06:22 IST" name="validationOfCreateNewAccountButton" finished-at="2024-10-15T19:06:26 IST" duration-ms="4457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfCreateNewAccountButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.LoginSignUpFacebook@f6efaab]" started-at="2024-10-15T19:06:26 IST" name="afterMethod" finished-at="2024-10-15T19:06:26 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="removePOM()[pri:0, instance:test.LoginSignUpFacebook@f6efaab]" started-at="2024-10-15T19:06:26 IST" name="removePOM" finished-at="2024-10-15T19:06:26 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePOM -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.LoginSignUpFacebook@f6efaab]" started-at="2024-10-15T19:07:17 IST" name="closeBrowser" finished-at="2024-10-15T19:07:18 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.LoginSignUpFacebook -->
+      <class name="test.CreateAccountTestClass">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:05:55 IST" name="openBrowser" finished-at="2024-10-15T19:06:01 IST" duration-ms="6442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initializePOM()[pri:0, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:06:16 IST" name="initializePOM" finished-at="2024-10-15T19:06:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePOM -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:06:16 IST" name="openApplication" finished-at="2024-10-15T19:06:24 IST" duration-ms="7511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="validationcreateAccountButton()[pri:1, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:06:24 IST" name="validationcreateAccountButton" finished-at="2024-10-15T19:06:27 IST" duration-ms="2735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationcreateAccountButton -->
+        <test-method is-config="true" signature="afterM()[pri:0, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:06:27 IST" name="afterM" finished-at="2024-10-15T19:06:27 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:06:27 IST" name="openApplication" finished-at="2024-10-15T19:06:29 IST" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verificationOfMetaPayLink()[pri:50, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:06:29 IST" name="verificationOfMetaPayLink" finished-at="2024-10-15T19:06:34 IST" duration-ms="5270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfMetaPayLink -->
+        <test-method is-config="true" signature="afterM()[pri:0, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:06:34 IST" name="afterM" finished-at="2024-10-15T19:06:34 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method is-config="true" signature="removePOM()[pri:0, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:06:34 IST" name="removePOM" finished-at="2024-10-15T19:06:34 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePOM -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.CreateAccountTestClass@409bf450]" started-at="2024-10-15T19:07:15 IST" name="closeBrowser" finished-at="2024-10-15T19:07:16 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.CreateAccountTestClass -->
+      <class name="test.FriendPageTestClass">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:06:01 IST" name="openBrowser" finished-at="2024-10-15T19:06:08 IST" duration-ms="6630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initializePOM()[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:06:26 IST" name="initializePOM" finished-at="2024-10-15T19:06:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePOM -->
+        <test-method is-config="true" signature="logintoApplicationAndSearchAFriend()[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:06:26 IST" name="logintoApplicationAndSearchAFriend" finished-at="2024-10-15T19:06:45 IST" duration-ms="18246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApplicationAndSearchAFriend -->
+        <test-method signature="validationOfSendButton()[pri:2, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:06:45 IST" name="validationOfSendButton" finished-at="2024-10-15T19:06:57 IST" duration-ms="12475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfSendButton -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:06:57 IST" name="logoutFromApplication" finished-at="2024-10-15T19:06:58 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="logintoApplicationAndSearchAFriend()[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:06:58 IST" name="logintoApplicationAndSearchAFriend" finished-at="2024-10-15T19:07:15 IST" duration-ms="17450" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@type='text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7bbf761f-a88b-4ed1-9786-3b48e9dbbe96, findElement {using=xpath, value=//input[@type='text']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:34538, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27568, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7bbf761f-a88b-4ed1-9786-3b48e9dbbe96]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@type='text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7bbf761f-a88b-4ed1-9786-3b48e9dbbe96, findElement {using=xpath, value=//input[@type='text']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:34538, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27568, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7bbf761f-a88b-4ed1-9786-3b48e9dbbe96
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+at pages.LoginOrSignUpPage.clickLoginButton(LoginOrSignUpPage.java:34)
+at test.FriendPageTestClass.logintoApplicationAndSearchAFriend(FriendPageTestClass.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApplicationAndSearchAFriend -->
+        <test-method signature="validationOfFavourites()[pri:3, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:07:15 IST" name="validationOfFavourites" finished-at="2024-10-15T19:07:15 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@type='text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7bbf761f-a88b-4ed1-9786-3b48e9dbbe96, findElement {using=xpath, value=//input[@type='text']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:34538, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27568, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7bbf761f-a88b-4ed1-9786-3b48e9dbbe96]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@type='text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7bbf761f-a88b-4ed1-9786-3b48e9dbbe96, findElement {using=xpath, value=//input[@type='text']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:34538, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27568, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7bbf761f-a88b-4ed1-9786-3b48e9dbbe96
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+at pages.LoginOrSignUpPage.clickLoginButton(LoginOrSignUpPage.java:34)
+at test.FriendPageTestClass.logintoApplicationAndSearchAFriend(FriendPageTestClass.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfFavourites -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:07:15 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1728999435615" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="logintoApplicationAndSearchAFriend()[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:07:15 IST" name="logintoApplicationAndSearchAFriend" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1728999435617" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApplicationAndSearchAFriend -->
+        <test-method signature="validationOfFriendPageURL()[pri:5, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:07:15 IST" name="validationOfFriendPageURL" finished-at="2024-10-15T19:07:15 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@type='text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7bbf761f-a88b-4ed1-9786-3b48e9dbbe96, findElement {using=xpath, value=//input[@type='text']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:34538, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27568, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7bbf761f-a88b-4ed1-9786-3b48e9dbbe96]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@type='text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7bbf761f-a88b-4ed1-9786-3b48e9dbbe96, findElement {using=xpath, value=//input[@type='text']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:34538, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27568, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34538/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7bbf761f-a88b-4ed1-9786-3b48e9dbbe96
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+at pages.LoginOrSignUpPage.clickLoginButton(LoginOrSignUpPage.java:34)
+at test.FriendPageTestClass.logintoApplicationAndSearchAFriend(FriendPageTestClass.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfFriendPageURL -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:07:15 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1728999435622" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="removePOM()[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:07:15 IST" name="removePOM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1728999435623" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePOM -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.FriendPageTestClass@38d8f54a]" started-at="2024-10-15T19:07:16 IST" name="closeBrowser" finished-at="2024-10-15T19:07:17 IST" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.FriendPageTestClass -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
