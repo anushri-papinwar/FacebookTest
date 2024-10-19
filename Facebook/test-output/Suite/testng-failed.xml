@@ -1,37 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="classes" name="ChromeTest(failed)">
-    <parameter name="browser" value="Chrome"/>
-    <classes>
-      <class name="test.FriendPageTestClass">
-        <methods>
-          <include name="removePOM"/>
-          <include name="initializePOM"/>
-          <include name="validationOfFavourites"/>
-          <include name="logintoApplicationAndSearchAFriend"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
-          <include name="logoutFromApplication"/>
-        </methods>
-      </class> <!-- test.FriendPageTestClass -->
-    </classes>
-  </test> <!-- ChromeTest(failed) -->
   <test thread-count="2" parallel="classes" name="FirefoxTest(failed)">
     <parameter name="browser" value="Firefox"/>
+    <groups>
+      <run>
+        <include name="High"/>
+      </run>
+    </groups>
     <classes>
       <class name="test.FriendPageTestClass">
         <methods>
-          <include name="removePOM"/>
-          <include name="initializePOM"/>
-          <include name="validationOfFavourites"/>
-          <include name="logintoApplicationAndSearchAFriend"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
-          <include name="logoutFromApplication"/>
           <include name="validationOfFriendPageURL"/>
         </methods>
       </class> <!-- test.FriendPageTestClass -->
+      <class name="test.CreateAccountTestClass">
+        <methods>
+          <include name="verificationOfMetaPayLink"/>
+        </methods>
+      </class> <!-- test.CreateAccountTestClass -->
+      <class name="test.LoginSignUpFacebook">
+        <methods>
+          <include name="validationOfCreateNewAccountButton"/>
+        </methods>
+      </class> <!-- test.LoginSignUpFacebook -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="2" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="High"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.FriendPageTestClass">
+        <methods>
+          <include name="validationOfFavourites"/>
+          <include name="validationOfFriendPageURL"/>
+        </methods>
+      </class> <!-- test.FriendPageTestClass -->
+      <class name="test.CreateAccountTestClass">
+        <methods>
+          <include name="verificationOfMetaPayLink"/>
+        </methods>
+      </class> <!-- test.CreateAccountTestClass -->
+      <class name="test.LoginSignUpFacebook">
+        <methods>
+          <include name="validationOfCreateNewAccountButton"/>
+        </methods>
+      </class> <!-- test.LoginSignUpFacebook -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

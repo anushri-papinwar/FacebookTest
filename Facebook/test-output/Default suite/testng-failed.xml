@@ -3,19 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.FriendPageTestClass">
+      <class name="test.CreateAccountTestClass">
         <methods>
-          <include name="removePOM"/>
-          <include name="initializePOM"/>
-          <include name="validationOfFavourites"/>
-          <include name="logintoApplicationAndSearchAFriend"/>
-          <include name="closeBrowser"/>
-          <include name="logoutFromApplication"/>
-          <include name="validationOfFriendPageURL"/>
           <include name="launchBrowser"/>
-          <include name="validationOfSendButton"/>
+          <include name="initializePOM"/>
+          <include name="closeBrowser"/>
+          <include name="removePOM"/>
+          <include name="afterM"/>
+          <include name="openApplication"/>
+          <include name="validationcreateAccountButton"/>
         </methods>
-      </class> <!-- test.FriendPageTestClass -->
+      </class> <!-- test.CreateAccountTestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

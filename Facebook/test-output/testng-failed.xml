@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="classes" name="ChromeTest(failed)">
-    <parameter name="browser" value="Chrome"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.FriendPageTestClass">
+      <class name="test.CreateAccountTestClass">
         <methods>
-          <include name="removePOM"/>
+          <include name="launchBrowser"/>
           <include name="initializePOM"/>
-          <include name="validationOfFavourites"/>
-          <include name="logintoApplicationAndSearchAFriend"/>
           <include name="closeBrowser"/>
-          <include name="openBrowser"/>
-          <include name="logoutFromApplication"/>
-        </methods>
-      </class> <!-- test.FriendPageTestClass -->
-    </classes>
-  </test> <!-- ChromeTest(failed) -->
-  <test thread-count="2" parallel="classes" name="FirefoxTest(failed)">
-    <parameter name="browser" value="Firefox"/>
-    <classes>
-      <class name="test.FriendPageTestClass">
-        <methods>
           <include name="removePOM"/>
-          <include name="initializePOM"/>
-          <include name="validationOfFavourites"/>
-          <include name="logintoApplicationAndSearchAFriend"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
-          <include name="logoutFromApplication"/>
-          <include name="validationOfFriendPageURL"/>
+          <include name="afterM"/>
+          <include name="openApplication"/>
+          <include name="validationcreateAccountButton"/>
         </methods>
-      </class> <!-- test.FriendPageTestClass -->
+      </class> <!-- test.CreateAccountTestClass -->
     </classes>
-  </test> <!-- FirefoxTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
